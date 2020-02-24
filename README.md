@@ -24,17 +24,21 @@
 
 Для запуска:
 
-git clone https://github.com/olegsergeyev/ManzanaGroupTestTask2
+    git clone https://github.com/olegsergeyev/ManzanaGroupTestTask2
+ 
+    cd ManzanaGroupTestTask2
 
-cd ManzanaGroupTestTask2
+    pipenv sync
 
-pipenv install --ignore-pipfile
+    pipenv shell
 
-export PYTHONPATH="$PWD"
+     python median/server_socket.py
 
-python median/server_socket.py
+во втором терминале:
 
-python median/client_socket.py
+    export PYTHONPATH="$PWD"
+
+    python median/client_socket.py
 
 Файл sort_matrix.py реализует функцию generate() для генерации матрицы и сохранения её в файл, функцию read_column() для чтения нужного столбца с файла, fast_sort_matrix() для сортировки матрицы по столбцам, результат записыается в отдельный файл.
 Для работы требуются модули numpy и pandas.
