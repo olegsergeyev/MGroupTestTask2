@@ -32,7 +32,7 @@
 
     pipenv shell
 
-     python median/server_socket.py
+    python median/server_socket.py
 
 во втором терминале:
 
