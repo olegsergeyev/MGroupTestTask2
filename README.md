@@ -36,6 +36,8 @@
 
 во втором терминале:
 
+    pipenv shell
+
     export PYTHONPATH="$PWD"
 
     python median/client_socket.py
