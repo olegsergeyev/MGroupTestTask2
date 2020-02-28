@@ -1,4 +1,4 @@
-# ManzanaGroupTestTask2
+# MGroupTestTask2
 
 Задача 1 (рассчитать медиану на потоке данных):
 
@@ -24,7 +24,7 @@
 
 Для запуска:
 
-    git clone https://github.com/olegsergeyev/ManzanaGroupTestTask2
+    git clone https://github.com/olegsergeyev/MGroupTestTask2
  
     cd ManzanaGroupTestTask2
 
